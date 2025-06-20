@@ -1,0 +1,350 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* font-family: proxima-nova; */
+}
+main{
+    height: 650px;
+    /* border: 2px solid; */
+    background-image: url('./image/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg' );
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: center;
+    
+    
+}
+main nav{
+    /* border: 2px solid red; */
+    height: 150px;
+    position: relative;
+    background-color:white;
+    background-attachment: scroll;
+    
+  
+}
+main nav ol{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    gap: 40px;
+    list-style: none;
+    position: absolute;
+    top: 49%;
+    right: 95px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+
+
+}
+main nav ol li:hover{
+   cursor: pointer;
+   color: #727171;
+}
+#i1{
+    color: #817f7f;
+}
+main nav img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+   position: absolute;
+   top: 18%;
+   left: 80px;
+
+}
+main aside{
+    padding-left: 6%;
+}
+main h1{
+    /* border: 2px solid; */
+    height: 74px;
+    width: 55%;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    padding: 1%;
+    color: #171717;
+}
+main div{
+    padding-left: 6%; 
+}
+main p{
+    /* border: 2px solid; */
+    height: 85px;
+    width: 60%;
+    background-color:rgba(255, 255, 255, .6) ;
+    font-size: 17px;
+    margin-left: 5%;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: lighter;
+    color:#363636;
+
+}
+/* button{
+    border: 2px solid red;
+    height: 200px;
+    width: 12px;
+    border-radius: 50px;
+    background-color:rgba(255, 255, 255, 0.897) ;
+    display: block;
+    position: fixed;
+    margin-left: 98%;
+    margin-top: 25%;
+} */
+
+main>span{
+    border: 2px solid;
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    
+}
+#s1{
+    height: 650px;
+    /* border: 2px solid; */
+    background-image: url('./image/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: center;
+}
+#s1 h1{
+    /* border: 2px solid; */
+    height: 100px;
+    width: 55%;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    padding: 1%;
+    color: #171717;
+    margin-left: 8%;
+}
+div{
+    height: 300px;
+
+}
+div h1{
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 13%;
+
+}
+div p{
+    font-size: 15px;
+    color: #727171;
+    line-height: 26px;
+    padding-left: 13%;
+}
+#s2{
+    height: 650px;
+    /* border: 2px solid; */
+    background-image: url('./image/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: center;
+
+}
+#s2 h1{
+    height: 60px;
+    width:250px;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    padding: 1%;
+    color: #171717;
+    margin-left: 8%;
+}
+#s3{
+    height: 650px;
+    /* border: 2px solid; */
+    background-image: url('./image/1040.jpeg');
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow: hidden;
+    background-position: center;
+
+}
+#s3 img{
+    height: 650px;
+    width: 1400px;
+}
+#s3 h1{
+    height: 60px;
+    width:350px;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    padding: 1%;
+    color: #171717;
+    margin-left: 8%;
+}
+#s4{
+    height: 650px;
+    /* border: 2px solid; */
+    background-image: url('./image/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: center;
+}
+#s4 h1{
+    height: 60px;
+    width:250px;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 6px;
+    padding: 1%;
+    color: #171717;
+    margin-left: 8%;
+}
+#s5{
+    /* border: 2px solid; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#s5 figure{
+    /* border: 2px solid; */
+    height:250px;
+    width: 320px;
+}
+#s5 img{
+    /* border: 2px solid; */
+    height: 200px;
+    width: 320px;
+}
+#s5 span{
+    font-size: 12px;
+}
+
+#s6{
+    /* border: 2px solid; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#s6 figure{
+    /* border: 2px solid; */
+    height:250px;
+    width: 320px;
+}
+#s6 img{
+    /* border: 2px solid; */
+    height: 200px;
+    width: 320px;
+}
+#s6 span{
+    font-size: 12px;
+}
+#s7{
+    /* border: 2px solid; */
+    height: 300px;
+    margin-left: 13%;
+}
+#s7 figure{
+    /* border: 2px solid; */
+    height:250px;
+    width: 320px;
+}
+#s7 img{
+    /* border: 2px solid; */
+    height: 200px;
+    width: 320px;
+}
+#s7 span{
+    font-size: 12px;
+}
+footer{
+    /* border: 2px solid; */
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+    background-color: #171717;
+    color:white;
+}
+footer aside{
+    /* border: 2px solid; */
+    height: 120px;
+    width: 300px;
+    font-size: 14px;
+    text-align: end;
+}
+footer aside i{
+    /* border: 2px solid; */
+    border-radius: 20px;
+    background-color: white;
+    font-size: 30px;
+    color:black;
+    
+}
+#b1{
+    /* transition-duration: 5s; */
+    behavior: scroll;
+    /* border: 2px solid; */
+    background-color:white;
+    height: 60px;
+    width: 60px;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-left: 48%;
+    margin-bottom: -4%;
+    border: none;
+
+}
+#b1 i{
+    font-size: 25px;
+    color: #171717;
+}
+
+#s11{
+    display: block;
+    height: 160px;
+    width: 20px;
+    /* border: 2px solid; */
+    /* margin-left: 98%;
+    margin-top: -90%; */
+    padding-left: 98%;
+    position: absolute;
+    top: 50%;
+    
+
+    
+}
+#s11>b{
+    border: 1px solid black;
+    height: 12px;
+    width: 12px;
+    border-radius: 25px;
+    font-size: 8px;
+    position: fixed;
+    color: rgba(255, 255, 255, 0.897);
+    background-color:rgba(255, 255, 255, 0.897);
+}
+#s11>b:hover{
+    cursor: pointer;
+}
+
+
+
+
